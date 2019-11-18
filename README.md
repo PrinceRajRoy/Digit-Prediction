@@ -4,6 +4,12 @@ The project takes MNIST Digit Data as input for training and predicts the corres
 
 The CNN model used in this project is as follows
 
-Input -> Conv2D -> MaxPool2D -> Conv2D -> MaxPool2D -> Flatten -> Dense -> Dropout -> Output
-
 #### `Input -> Conv2D -> MaxPool2D -> Conv2D -> MaxPool2D -> Flatten -> Dense -> Dropout -> Output`
+
+Steps To Run :-
+
+1) Open the project in Jupyter
+2) Click On Cell -> Run All
+3) For Testing Prediction, plot any data point from test set and print the corresponding prediction as follows :-
+#### `plt.imshow(xtest[56])`
+#### `print(np.argmax(predictions[56]))`
