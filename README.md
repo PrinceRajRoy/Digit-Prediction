@@ -1,4 +1,4 @@
-# Digit-Recognition
+# Digit-Prediction
 
 The project takes MNIST Digit Data as input for training and predicts the corresponding digit based on the image.
 
