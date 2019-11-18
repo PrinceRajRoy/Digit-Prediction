@@ -10,6 +10,6 @@ Steps To Run :-
 
 1) Open the project in Jupyter
 2) Click On Cell -> Run All
-3) For Testing Prediction, plot any data point from test set and print the corresponding prediction as follows :-
-#### `plt.imshow(xtest[56])`
-#### `print(np.argmax(predictions[56]))`
+3) For Testing Any Data Point Prediction say i, plot the data point from test set and print the corresponding prediction as follows :-
+#### `plt.imshow(xtest[i])`
+#### `print(np.argmax(predictions[i]))`
